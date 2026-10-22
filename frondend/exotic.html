@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Exotic Rare | Golden Aura</title>
+<link rel="icon" href="images/favicon.svg">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@1,600&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/leaves.css">
+</head>
+<body>
+<header id="site-header"></header>
+<section class="page-banner"><div><h1>Exotic Rare Collection</h1><p>Hand-picked variegated &amp; collector plants</p></div></section>
+<section class="section">
+  <div class="container">
+    <div class="toolbar">
+      <div class="chips"></div>
+      <div class="tools">
+        <input id="search" type="search" placeholder="Search rare plants…" aria-label="Search">
+        <select id="sort" aria-label="Sort">
+          <option value="default">Sort: Featured</option>
+          <option value="low">Price: Low to High</option>
+          <option value="high">Price: High to Low</option>
+          <option value="az">Name: A–Z</option>
+        </select>
+      </div>
+    </div>
+    <div class="grid" id="product-grid" data-only="rare"></div>
+  </div>
+</section>
+<footer id="site-footer"></footer>
+<script src="js/main.js"></script>
+<script src="js/animation.js"></script>
+</body>
+</html>
